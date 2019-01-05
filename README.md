@@ -32,7 +32,7 @@ npm install
 
 ## Authors
 
-* **Yogender Narayan**  - [yogidon](https://github.com/yogidon)
+* **Yogender Narayan**  - [Yogidon](https://github.com/Yogidon)
 
 ## License
 
