@@ -1,6 +1,6 @@
 # RESUME CREATOR
 
-This resume creator takes data from user in form of html forms and saves it in database. Then after the data is obtained resume is given i form of a pdf.
+This resume creator takes data from user in form of html forms and saves it in database. Then after the data is obtained resume is given in the form of a pdf.
 
 ## Getting Started
 
@@ -40,5 +40,5 @@ npm install
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
