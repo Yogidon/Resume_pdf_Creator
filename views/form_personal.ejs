@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RESUME CREATOR</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+</head>
+<body>
+<header class="lgr">
+    <h1 class="lgr">RESUME CREATOR</h1>
+</header>
+<div class="osr" id="main">
+    <h2 class="simple">PERSONAL DETAILS</h2>
+    <form autocomplete="off" action="http://localhost:3000/form/personal/submit" method="post">
+        <label for="f_name">FIRST NAME</label>
+        <input id="f_name" name="first_name" type="text">
+        <label for="l_name">LAST NAME</label>
+        <input id="l_name" name="last_name" type="text">
+        <br>
+        <label for="email">EMAIL ADDRESS</label>
+        <input id="email" name="email" type="email">
+        <label for="phone-no" >PHONE NUMBER</label>
+        <input id="phone-no" name="phone_no" type="text">
+        <br>
+        <label for="website">WEBSITE</label>
+        <input id="website" name="website" type="text">
+        <br>
+        <div>
+            <label for="profile">PROFILE</label>
+            <br>
+            <textarea id="profile" name="profile" placeholder="TELL US SOMETHING ABOUT YOU."></textarea>
+        </div>
+        <div class="autocomplete">
+            <label>HOBBIES</label>
+            <input name="hobbies1" id="hobbies1" type="text">
+            <input name="hobbies2" id="hobbies2" type="text">
+            <input name="hobbies3" id="hobbies3" type="text">
+        </div>
+        <br>
+        <div>
+            <button id="btn" class="aqua">NEXT</button>
+        </div>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/script/personal.js"></script>
+</body>
+</html>

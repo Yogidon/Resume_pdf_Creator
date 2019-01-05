@@ -1,0 +1,63 @@
+@font-face {
+    font-family: simple;
+    src:url('../font/simple.ttf');
+}
+
+@font-face {
+    font-family: au;
+    src: url("../font/au.otf");
+}
+@font-face {
+    font-family: aqua;
+    src: url("../font/aqua.ttf");
+}
+@font-face {
+    font-family: osr;
+    src: url("../font/os-regular.otf");
+}
+@font-face {
+    font-family: earth;
+    src: url("../font/earth.ttf");
+}
+
+@font-face {
+    font-family: lgr;
+    src: url("../font/lgr.otf");
+}
+
+@font-face {
+    font-family: robo;
+    src: url("../font/robo.ttf");
+}
+
+.lgr{
+    font-family: lgr;
+    font-size: 50px;
+}
+
+.aqua{
+    font-family: aqua;
+    font-size: 20px;
+}
+.au{
+    font-family: au;
+    font-size: 20px;
+}
+.simple{
+    font-family: simple;
+    font-size: 35px;
+}
+.l{
+    font-family: "Lobster", serif;
+    font-size: 20px;
+}
+.osr{
+    font-family: osr;
+    font-size: 20px;
+}
+.robo{
+    font-family: robo;
+}
+.earth{
+    font-family: earth;
+}

@@ -1,0 +1,94 @@
+body{
+    background-color: #79BD8F;
+    height: 1380px;
+    width: 850px;
+    margin: 30px auto;
+}
+
+#main{
+    height: 96%;
+    width: 100%;
+    border: 2px solid #64D2EE;
+    background-color: #FFFF9D;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+#head_download{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+
+h1{
+    margin:25px auto 25px auto;
+}
+
+#resume{
+    height: 297mm;
+    width: 210mm;
+    background-color: white;
+    box-shadow: 1px 2px 9px 1px #888888;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    margin: 30px auto;
+    padding: 5px;
+}
+
+.edusec>h3{
+    font-size: 17px;
+}
+
+input{
+    height: 25px;
+    margin: 10px;
+    font-family: 'Jura', sans-serif;
+    font-size: medium;
+}
+
+#skills{
+    height: 150px;
+}
+
+#skill_list>p{
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px;
+}
+#skill_list{
+    text-align: center;
+}
+
+.heading{
+    border-bottom: 2px black solid;
+    text-align: center;
+    height: 15px;
+}
+
+.heading>span{
+    font-size: 25px;
+    background-color: white;
+}
+
+#pro{
+    text-align: center;
+}
+
+#name{
+    font-size:30px;
+}
+
+#btn{
+    display: block;
+    border: none;
+    padding: 5px;
+    margin: 10px auto;
+    background-color: darkolivegreen;
+}
+
+*{
+    box-sizing: border-box;
+}

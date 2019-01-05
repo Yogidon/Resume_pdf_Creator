@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RESUME CREATOR</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/form_skill.css">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+</head>
+<body>
+<header class="lgr">
+    <h1 class="lgr">RESUME CREATOR</h1>
+</header>
+<div id="main" class="osr">
+    <h2 class="simple">SKILLS</h2>
+    <p id="num"></p>
+    <form autocomplete="off" action="http://localhost:3000/form/skill/submit" method="post">
+        <p id="zero"></p>
+        <div class="skill">
+            <label for="skill_1">SKILL</label>
+            <input name="skill_1" id="skill_1" type="text">
+            <label for="level_1">LEVEL</label>
+            <select name="level_1" id="level_1">
+                <option>Select your skill level</option>
+                <option value="1">★ ☆ ☆ ☆ ☆ – Novice</option>
+                <option value="2">★ ★ ☆ ☆ ☆ – Beginner</option>
+                <option value="3">★ ★ ★ ☆ ☆ – Skillful</option>
+                <option value="4">★ ★ ★ ★ ☆ – Experienced</option>
+                <option value="5">★ ★ ★ ★ ★ – Expert</option>
+                <option value="0">- Don't show level</option>
+            </select>
+        </div>
+
+        <div class="skill">
+            <label for="skill_2">SKILL</label>
+            <input name="skill_2" id="skill_2" type="text">
+            <label for="level_2">LEVEL</label>
+            <select name="level_2" id="level_2">
+                <option>Select your skill level</option>
+                <option value="1">★ ☆ ☆ ☆ ☆ – Novice</option>
+                <option value="2">★ ★ ☆ ☆ ☆ – Beginner</option>
+                <option value="3">★ ★ ★ ☆ ☆ – Skillful</option>
+                <option value="4">★ ★ ★ ★ ☆ – Experienced</option>
+                <option value="5">★ ★ ★ ★ ★ – Expert</option>
+                <option value="0">- Don't show level</option>
+            </select>
+        </div>
+        <div class="skill">
+            <label for="skill_3">SKILL</label>
+            <input name="skill_3" id="skill_3" type="text">
+            <label for="level_3">LEVEL</label>
+            <select id="level_3" name="level_3">
+                <option>Select your skill level</option>
+                <option value="1">★ ☆ ☆ ☆ ☆ – Novice</option>
+                <option value="2">★ ★ ☆ ☆ ☆ – Beginner</option>
+                <option value="3">★ ★ ★ ☆ ☆ – Skillful</option>
+                <option value="4">★ ★ ★ ★ ☆ – Experienced</option>
+                <option value="5">★ ★ ★ ★ ★ – Expert</option>
+                <option value="0">- Don't show level</option>
+            </select>
+        </div>
+        <div id="edit">
+            <img id="add" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAb1BMVEUAAAD////FxcU5OTkzMzORkZHX19f19fXQ0NB3d3dERETJycmioqIpKSns7Oxubm4ICAhOTk69vb20tLSGhoaZmZny8vKrq6vk5OTe3t5VVVUfHx9ISEg2NjYlJSVbW1thYWEQEBCAgIAYGBhmZmbuBZlbAAAD/klEQVR4nO3d3XaiMBSG4URRVBC1yo+Ig23n/q9xtNqqCDVgNtnJfO/hHGTtZ+myCpkgZG1JEI7K4W4pbOj9c/gRTpJ6iaj5tywuTM/cpTyMlICDmelJuzcbPAWu96aHfK0H4j0wW5ke8PXyrBmYmh5OT2kT8GB6Ml2VtcDE4g+XaoX/CIz+mJ5KZ55fBSZO+YQY+hWgQ+/Pc8U98K/pefS3uAWuTU9DUXoFRqZnoSn6AZamR6Gp/Aa+mZ6EquACHJoehKriDHT2BRRi8AW0/AfSb+Un4Nb0FJRFR+DI9BCUhUegc1/SbiulcPSP/HeJcPgz9NRYxKZHoC0VU9Mj0LYRzn6NOZeLnekRaPPEu+kRaLPj7gpCCCFktDgYsCvQ+TPh8dY3gwLXgQMAAdQF9BtyA5htvKZlvc3WeqC/+H3lRfeXkQUwmj9bel63wcweoMLWBs9moNIlu429wExt9Y5vUgZAxfs6obVAxXv/C2uBiheVi+cr2Q3s+DkKIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCKBbwD0v4DYdqab4ny93ygumW3Lg2vDZT3/WpECfwcl5uU8H9J/u3+0jjw540LjkCy2ogDpXfKkJEZDNsR4lDZDRsR4+CXCiccEXG7sOnADYMgB7DsC2AdhzALYNwJ4DsG0A9hyAbQOw5wBsG4A9B2DbAOw5ANv2BWR04viW5tI9m7NW34nuTWw0rvhSGyIgm5sTERGQy6NhLnexKW5hs3iTjiQdkMHj35Y/uxBodln4sdF9CHl4PaaMbCOQn40Vazwx7r656nrZ3SFs9ux0cn4rF4AAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAKjE7MKdFipuiVtYClZ7OJ8TUWuCb2upv1gLlp8riu46LcwAqvYRdF+cAVNlBO3q+CmOg/Hi2dNcngHIBysmv5witJt1XZgI8nTQ3bSh95UHKfIBUAQggc2CgERgHA3YFsUYgQgih/7Wl6QGoU7qqYG9LweJcYrrmojA9Am2FeHpNwe6mIjQ9Am2h0Pmjg2GBSEyPQFsipNOfMisppNO/G+MjMDM9BGXZEcjnhHf9reQJyOaMfv0FX0C5Nz0HVYU8AxXvU9pXcAGq3ku3rYP8BjI6b0tn0Q+QwTk4BJ1P1jkDZWl6Gv1dngxzAaru2bGnmbwHRo5dm5n7FaBjwnkkq0AZOXR1ZnY9/OkKlH5uei5dLW7uIt4ApSu/nNayCSi3DnyYlpFsBkq5VjwLjWuz6s6+KvD41dvi34erx80Ej0Apxx9WvlPzOKvB1AGPZev4sN9Z8qdx6eWbdJzUS/4BHdtTzBgi4nsAAAAASUVORK5CYII=" alt="ADD">
+            <img id="remove" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj8_Z_TMafUiiQcYQXaRtD9RgMqua66v--ZdSx0D4j3M_oOOe2">
+        </div>
+        <button id="btn" class="aqua">NEXT</button>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/script/skill.js"></script>
+</body>
+</html>

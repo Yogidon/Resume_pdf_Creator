@@ -1,0 +1,97 @@
+body{
+    background-color: #79BD8F;
+    height: 1680px;
+    width: 850px;
+    margin: 30px auto;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+
+h1{
+    margin:25px auto 25px auto;
+}
+
+#main{
+    height: 96%;
+    width: 100%;
+    border: 2px solid #64D2EE;
+    background-color: #FFFF9D;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    padding: 15px;
+    margin: 15px;
+}
+
+input{
+    height: 25px;
+    margin: 10px;
+    font-family: 'Jura', sans-serif;
+    font-size: medium;
+}
+
+label{
+    color: #FF6138;
+    font-size: 30px;
+    display: inline;
+    margin:0 0 10px 10px;
+}
+
+#personal>label{
+    color: #FF6138;
+    font-size: 25px;
+    display: inline;
+    margin:0 0 10px 10px;
+}
+
+#education{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 530px;
+    margin: 10px;
+}
+
+#personal,#skill,#experience{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 200px;
+    margin: 10px;
+}
+
+.sec{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 124px;
+    margin: 5px;
+}
+
+.u{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 150px;
+    margin: 0 5px 5px 5px
+}
+
+p{
+    margin: 5px 5px 5px 0;
+    padding: 5px;
+    display: inline;
+    font-size: 25px;
+}
+
+#btn{
+    border: none;
+    padding: 5px;
+    margin: 10px auto;
+    background-color: darkolivegreen;
+}

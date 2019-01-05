@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RESUME CREATOR</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/form_review.css">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+</head>
+<body>
+<header class="lgr">
+    <h1 class="lgr">RESUME CREATOR</h1>
+</header>
+<div id="main" class="osr">
+    <h2 class="simple">REVIEW</h2>
+
+    <label for="personal">PERSONAL</label>
+    <div id="personal">
+        <label for="first"> First Name</label>
+        <p id="first"><%= first_name%></p>
+        <label for="last">Last Name</label>
+        <p id="last"><%= last_name%></p>
+        <br>
+        <label for="website">website</label>
+        <p id="website"><%= website%></p>
+        <br>
+        <label for="profile">profile</label>
+        <p id="profile"><%= profile%></p>
+        <label for="state">State</label>
+        <p id="state"><%= state%></p>
+        <br>
+        <label for="email">Email Address</label>
+        <p id="email"><%= email_id%></p>
+        <label for="phone">Phone Number   :</label>
+        <p id="phone"><%= phone_no%></p>
+        <br>
+        <label>Hobbies   :</label>
+        <p id="hobbie_1"><%= hobbie_1%></p>
+        <p id="hobbie_2"><%= hobbie_2%></p>
+        <p id="hobbie_3"><%= hobbie_3%></p>
+    </div>
+
+    <label>EXPERIENCE</label>
+    <div id="experience">
+        <label for="employer">Employer</label>
+        <p id="employer"><%= employer%></p>
+        <label for="job">Job Title</label>
+        <p id="job"><%= job_title%></p>
+        <br>
+        <label id="city">City</label>
+        <p id="city"><%= city%></p>
+        <label id="state">State</label>
+        <p id="state"><%= state%></p>
+        <br>
+        <label>Start Date</label>
+        <p id="start_month"><%= start_month%></p>
+        <p id="start_year"><%= start_year%></p>
+        <label>End Date</label>
+        <p id="end_month"><%= end_month%></p>
+        <p id="end_year"><%= end_year%></p>
+        <br>
+        <label id="description">Description</label>
+        <p id="description"><%= description%></p>
+    </div>
+
+    <label for="education">EDUCATION</label>
+    <div id="education">
+        <p>CLASS 10</p>
+        <div class="sec 10">
+            <label for="school_10">School</label>
+            <p id="school_10"><%= school_10%></p>
+            <br>
+            <label>Start Date</label>
+            <p id="start_month"><%= sch10_start_month%></p>
+            <p id="start_year"><%= sch10_start_year%></p>
+            <label>End Date</label>
+            <p id="end_month"><%= sch10_end_month%></p>
+            <p id="end_year"><%= sch10_end_year%></p>
+            <br>
+            <label for="board_10">School Board</label>
+            <p id="board_10"><%= board_10%></p>
+        </div>
+        <p>CLASS 12</p>
+        <div class="sec">
+            <label for="school_12">School</label>
+            <p id="school_12"><%= school_12%></p>
+            <br>
+            <label>Start Date</label>
+            <p id="start_month"><%= sch12_start_month%></p>
+            <p id="start_year"><%= sch12_start_year%></p>
+            <label>End Date</label>
+            <p id="end_month"><%= sch12_end_month%></p>
+            <p id="end_year"><%= sch12_end_year%></p>
+            <br>
+            <label for="board_12">Board</label>
+            <p id="board_12"><%= board_12%></p>
+        </div>
+        <p>UNDERGRADUATE COLLEGE</p>
+        <div class="sec u">
+            <label for="clg">College Name</label>
+            <p id="clg"><%= u_clg%></p>
+            <br>
+            <label>Start Date</label>
+            <p id="start_month"><%= under_start_month%></p>
+            <p id="start_year"><%= under_start_year%></p>
+            <label>End Date</label>
+            <p id="end_month"><%= under_end_month%></p>
+            <p id="end_year"><%= under_end_year%></p>
+            <br>
+            <label for="course">Course</label>
+            <p id="course"><%= under_course%></p>
+            <br>
+            <label for="degree">Degree</label>
+            <p id="degree"><%= under_degree%></p>
+        </div>
+    </div>
+
+    <label for="skill">SKILL</label>
+    <div id="skill">
+        <label for="skill_1">Skill</label>
+        <p id="skill_1"><%= skill_1%></p>
+        <label for="level_1">Level</label>
+        <p id="level_1"><%= level_1%></p>
+        <br>
+        <label for="skill_2">Skill</label>
+        <p id="skill_2"><%= skill_2%></p>
+        <label for="level_2">Level</label>
+        <p id="level_2"><%= level_2%></p>
+        <br>
+        <label for="skill_3">Skill</label>
+        <p id="skill_3"><%= skill_3%></p>
+        <label for="level_3">Level</label>
+        <p id="level_3"><%= level_3%></p>
+    </div>
+    <a href="/download"><button class="aqua" id="btn">NEXT</button></a>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/script/review.js"></script>
+</body>
+</html>

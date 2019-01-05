@@ -1,0 +1,28 @@
+body{
+    background-color: #79BD8F;
+    height: 700px;
+    width: 700px;
+    margin: 30px auto;
+}
+#main{
+    height: 60%;
+    width: 100%;
+    border: 2px solid #64D2EE;
+    background-color: #FFFF9D;
+    text-align: center;
+}
+
+#main>h1{
+    font-size: 60px;
+    color: #00A388;
+}
+#main>h2{
+    font-size: 40px;
+    color: #FF6138;
+}
+#btn{
+    border: none;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: darkolivegreen;
+}

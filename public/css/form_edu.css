@@ -1,0 +1,151 @@
+body{
+    background-color: #79BD8F;
+    height: 1800px;
+    width: 850px;
+    margin: 30px auto;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+
+h1{
+    margin:25px auto 25px auto;
+}
+
+#main{
+    height: 96%;
+    width: 100%;
+    border: 2px solid #64D2EE;
+    background-color: #FFFF9D;
+    border-radius: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+}
+
+form{
+    padding: 15px;
+    margin: 15px;
+}
+
+input{
+    height: 25px;
+    margin: 10px;
+    font-family: 'Jura', sans-serif;
+    font-size: medium;
+}
+
+label,#txt{
+    color: #FF6138;
+    font-size: 30px;
+    display: inline;
+}
+
+#sch_name_10,#sch_name_12,#u_clg_name,#p_clg_name > input{
+    width: 250px;
+}
+
+#sch_10,#sch_12,#undergrad,#postgrad{
+    border: 2px solid royalblue;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#sch_board_12,#sch_board_10{
+    width: 300px;
+}
+
+.start,.end{
+    padding: 10px;
+    margin: 10px 10px 20px 0;
+    border: 2px solid royalblue;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#add,#minus{
+    text-align: center;
+}
+
+#add>p{
+    font-size: 30px;
+}
+
+#add_img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#remove_cont{
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+}
+#remove{
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+textarea{
+    font-size: 18px;
+    margin: 10px;
+    display: inline;
+    width: 720px;
+    height: 170px;
+}
+
+#btn{
+    border: none;
+    padding: 5px;
+    margin: 10px auto;
+    background-color: darkolivegreen;
+}
+
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Creator</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/form_download.css">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+</head>
+<body>
+
+<header class="lgr">
+    <h1 class="lgr">RESUME CREATOR</h1>
+</header>
+
+<div id="main">
+    <h1 id="head_download" class="earth">DOWNLOAD YOUR RESUME FROM HERE</h1>
+    <button id="btn" class="aqua">DOWNLOAD</button>
+    <div id="resume">
+
+        <div id="pro">
+            <p id="name" class="robo"><%= name%></p>
+            <p><%= email%></p>
+            <p><%= website%></p>
+            <p><%= phone%></p>
+        </div>
+
+        <div id="profile">
+            <div class="heading profile">
+            <span>
+                PROFILE
+            </span>
+            </div>
+            <p><%= profile%></p>
+        </div>
+
+        <div id="exp">
+            <div class="heading exp">
+            <span>
+                EXPERIENCE
+            </span>
+            </div>
+
+            <div>
+                <h2 style="margin-bottom:0"><%= employer%></h2>
+                <p style="margin-top: 0"><%= job_title%></p>
+                <h4><%= start_year%> <%= start_month %> - <%= end_year%> <%= end_month %></h4>
+                <p><%= description%></p>
+            </div>
+
+        </div>
+
+        <div id="skills">
+            <div class="heading skills">
+            <span>
+                SKILLS
+            </span>
+                <div id="skill_list">
+                    <p><%= skill_1%></p>
+                    <p><%= skill_2%></p>
+                    <p><%= skill_3%></p>
+                    <br>
+                    <p><%= skill_4%></p>
+                    <p><%= skill_5%></p>
+                    <p><%= skill_6%></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="edu">
+            <div class="heading edu">
+            <span>
+                EDUCATION
+            </span>
+            </div>
+            <div class="edusec u">
+                <h2 style="margin-bottom:0"><%= u_clg %></h2>
+                <p style="margin-top: 0"><%= under_start_year%> <%= under_start_month %> - <%= under_end_year%> <%= under_end_month %></p>
+                <h3><%= under_degree%>  <t>in</t>  <%= under_course%></h3>
+            </div>
+            <div class="edusec 12">
+                <h2 style="margin-bottom:0"><%= school_12 %></h2>
+                <p style="margin-top: 0"><%= sch12_start_year%> <%= sch12_start_month %> - <%= sch12_end_year%> <%= sch12_end_month %></p>
+                <h3><%= board_12 %></h3>
+            </div>
+            <div class="edusec 10">
+                <h2 style="margin-bottom:0"><%= school_10 %></h2>
+                <p style="margin-top: 0"><%= sch10_start_year%> <%= sch10_start_month %> - <%= sch10_end_year%> <%= sch10_end_month %></p>
+                <h3><%= board_10 %></h3>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.1/jspdf.debug.js"></script>
+<script src="/lib/html2canvas.js"></script>
+<script src="/script/download.js"></script>
+</body>
+</html>
