@@ -1,7 +1,7 @@
 # RESUME CREATOR
 
 This resume creator takes data by user from forms and saves it in database. Then after the data is obtained a pdf is created of a particular template.
-This project uses NodeJS,MongoDB,jsPDF,html2canvas,Jquery,Javascript,HTML,CSS.
+This project uses NodeJS, MongoDB, jsPDF, html2canvas, Jquery, Javascript, HTML, CSS.
 
 ## Getting Started
 
@@ -9,53 +9,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+First you need to install NodeJS in your system.
 ```
-Give examples
+https://nodejs.org/en/
+```
+
+Also need to install MongoDB
+```
+https://www.mongodb.com/download-center
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To install a the needed modules just run.
 
 ```
-Give the example
+npm install
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
