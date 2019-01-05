@@ -28,15 +28,15 @@ npm install
 
 ## Built With
 
-* [NodeJS](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [MongoDB](https://maven.apache.org/) - Dependency Management
-* [html2canvas](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [jsPDF](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [NodeJS](https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [MongoDB](https://www.mongodb.com/) - Database Used
+* [html2canvas](https://html2canvas.hertzen.com/) - Used to screenshots the page to create image. 
+* [jsPDF](https://parall.ax/products/jspdf/) - Used to generate pdf out of Canvas images
 
 
 ## Authors
 
-* **Yogender Narayan** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Yogender Narayan**  - [yogidon](https://github.com/yogidon)
 
 ## License
 
